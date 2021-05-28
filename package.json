@@ -1,0 +1,9 @@
+{
+  "name": "graphql-node-mongodb-example",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "repository": "https://github.com/miami78/graphql-node-mongodb-example.git",
+  "author": "miami78 <miamilarry78@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
