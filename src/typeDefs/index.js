@@ -1,7 +1,6 @@
 const gql = require("graphql-tag");
 
 const query = require("./query");
-const mutation = require("./mutation");
 
 const { types } = require("./types");
 
@@ -32,7 +31,7 @@ const genericTypeDefs = gql`
   }
 `;
 
-const typeDefs = [query, mutation, genericTypeDefs, ...types];
+const typeDefs = [query, genericTypeDefs, ...types];
 
 module.exports = {
   typeDefs,
